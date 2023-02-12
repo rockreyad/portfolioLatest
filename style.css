@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: avertaCY;
+  padding-inline: 40px;
+  padding-block: 20px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  display: flex;
+  list-style: none;
+  margin: 0 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 5rem;
+}
+
+.search-bar {
+  padding-block: 15px;
+  padding-inline: 10px;
+  width: 120px;
+  border-radius: 10px;
+  border: 0.5px solid #d4d5d6;
+  outline-color: #cacaca;
+}
+
+.search-bar::placeholder {
+  color: black;
+  text-align: start;
+  font-family: avertaCY;
+}
+
+li a {
+  text-decoration: none;
+  color: #4f4f51;
+}
+li a:hover {
+  text-decoration: none;
+  color: #8873f0;
+}
+
+@font-face {
+  font-family: avertaCY;
+  src: url(font/AvertaRegular.otf);
+  font-weight: bold;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "portfoliolatest",
+  "version": "1.0.0",
+  "description": "a creative personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "portfolio"
+  ],
+  "author": "reyad",
+  "license": "ISC"
+}
